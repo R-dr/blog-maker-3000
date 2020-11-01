@@ -20,7 +20,7 @@
     <div class="card-body pt-5">
       <% @post.elements.each do |e| %>  
       <% if e.persisted? %>
-            <div class="mb-3 p-3 paragraph">
+            <div class="mb-4 p-3 paragraph">
             <div class="paragraph-content">
             <% if e.content.present? %>
               <%= e.content %>
